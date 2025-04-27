@@ -1,0 +1,29 @@
+/*================== HEADER ==================*/
+.nav__logo
+Home - About - Models - Information - Contact
+
+/*================== Home ==================*/
+.home_subtitle
+CHOOSE YOUR AVENTADOR
+
+.home_title
+AVENTADOR
+
+.home__button
+START
+
+
+/*================== Home ==================*/
+.home_subtitle
+CHOOSE YOUR AVENTADOR
+
+.home_title
+AVENTADOR
+
+.home__button
+START
+
+
+/*================== ABOUT ==================*/
+.section_title
+
