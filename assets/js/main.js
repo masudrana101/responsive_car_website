@@ -1,7 +1,6 @@
 /*================== SHOW MENU ==================*/
 
 const navMenu = document.getElementById('nav-menu'),
-
       navToggle = document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close')
 
@@ -23,7 +22,7 @@ if(navClose){
 
 /*============== REMOVE MENU MOBILE =============*/
 
-const navLink =document.querySelectorAll('nav__link')
+const navLink =document.querySelectorAll('.nav__link')
 
 const linkAction = () =>{
     const navMenu = document.getElementById('nav-menu')
