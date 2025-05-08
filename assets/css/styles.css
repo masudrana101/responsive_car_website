@@ -247,8 +247,6 @@
 
   /*Show Menu*/
 
- 
-
   .nav__menu {
     display: none; /* initially hidden */
   }
@@ -258,14 +256,6 @@
     top: 0; /* already included */
   }
   
-
-
-
-
-
-
-
-
 
   .nav__menu {
     position: fixed;
@@ -283,15 +273,10 @@
     top: var(--header-height); /* show below the header */
   }
 
-
-
-
   .container {
     max-width: 1120%;
     margin-inline: 1.5rem;
   }
-
-
 
   .container {
     max-width: 1120px;
@@ -299,13 +284,13 @@
     padding-inline: 1.5rem;
   }
   
-
-
-
-
-
-
   /*Change Backgraound header*/
+
+  .bg-header{
+    background-color: var(--body-color);
+    box-shadow: 0 4px 16px hsla(0, 0%, 0%, .1);
+
+  }
 
 
   /*Active link*/
@@ -346,8 +331,60 @@
   text-align: center;
 }
 
+.home__subtitle{
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  letter-spacing: 1px;
+  margin-bottom: .25rem;
+}
+
+home__title{
+  font-size: var(--big-font-size);
+  font-weight: var(--font-extra-bold);
+  letter-spacing: 2px;
+  color: var(--white-color);
+
+}
+
+.home__button{
+  position: absolute;
+  bottom: 5rem;
+  justify-self: center;
+  color: var(--white-color);
+  width: 94px;
+  height: 94px;
+  border: 2px solid var(--white-color);
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  padding-top: 1rem;
+  z-index: 5;
+}
+
+.home__button span{
+  font-weight: var(--font-semi-bold);
+}
+
+.home__button i{
+  font-size: 1.5rem;
+}
+.home__swiper{
+  position: relative;
+}
+
+.home__img{
+  width: 300px;
+  margin-inline: auto;
+}
+
  /*Swiper Class*/
 
+ .swiper{
+  margin-inline: initial;
+  align-self: center;
+  margin-bottom: 1rem;
+ }
 
 
 
