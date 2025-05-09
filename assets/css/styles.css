@@ -386,8 +386,27 @@ home__title{
   margin-bottom: 1rem;
  }
 
+ .swiper-pagination-bullets.swiper-pagination-horizontal{
+  height: max-content;
+  top: 30rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 1.5rem;
 
+ }
 
+ .swiper-pagination-bullet{
+  color: var(--white-color);
+  opacity: 1;
+  background: none;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+  transition: color .4s;
+ }
+
+ .swiper-pagination-bullets-active{
+  color: var(--black-color);
+ }
 
       
 
